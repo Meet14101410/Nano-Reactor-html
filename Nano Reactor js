@@ -1,0 +1,10 @@
+let energy = 0;
+
+function reactor() {
+  energy += 10;
+  document.getElementById("energy").innerText = energy;
+
+  if (energy >= 100) {
+    alert("Nano Reactor Fully Charged!");
+  }
+}
